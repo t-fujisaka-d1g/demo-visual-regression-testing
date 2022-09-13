@@ -6,7 +6,8 @@
   "scripts": {
     "open": "cypress open",
     "screenshot": "cypress run --e2e --browser chrome",
-    "update-fixtures": "cpx -C 'cypress/screenshots/**' 'cypress/fixtures'"
+    "update-fixtures": "cpx -C 'cypress/screenshots/**' 'cypress/fixtures'",
+    "report-gen": "cpx -C 'cypress/fixtures/**' 'docs/before' && cpx -C 'cypress/screenshots/**' 'docs/after' && reg-cli ./docs/after ./docs/before ./docs/diff -R ./docs/index.html -J ./docs/reg.json"
   },
   "repository": {
     "type": "git",
