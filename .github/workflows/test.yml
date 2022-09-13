@@ -43,7 +43,7 @@ jobs:
           # PR作成
           $result = gh pr list -B 'main' -H 'fixtures'
             if ($result -eq $null){
-            gh pr create -B "main" -H "fixtures" -t "fixturesフォルダを更新"
+            gh pr create -B "main" -H "fixtures" -t "fixturesフォルダを更新" -b "Update fixtures folder."
           }
           
           # レポートをgh-pagesブランチにコミット
