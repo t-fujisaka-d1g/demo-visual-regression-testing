@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/t-fujisaka-d1g/demo-visual-regression-testing/issues"
   },
-  "homepage": "https://github.com/t-fujisaka-d1g/demo-visual-regression-testing#readme"
+  "homepage": "https://github.com/t-fujisaka-d1g/demo-visual-regression-testing#readme",
+  "volta": {
+    "node": "16.17.0"
+  }
 }
