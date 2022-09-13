@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "open": "cypress open",
-    "screenshot": "cypress run --e2e --browser chrome"
+    "screenshot": "cypress run --e2e --browser chrome",
+    "update-fixtures": "cpx -C 'cypress/screenshots/**' 'cypress/fixtures'"
   },
   "repository": {
     "type": "git",
