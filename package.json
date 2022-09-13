@@ -20,6 +20,7 @@
     "node": "16.17.0"
   },
   "dependencies": {
-    "cypress": "^10.7.0"
+    "cypress": "^10.7.0",
+    "reg-cli": "^0.17.7"
   }
 }
