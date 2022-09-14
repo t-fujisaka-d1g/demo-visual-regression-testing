@@ -1,4 +1,6 @@
 # Visual Regression Testing デモ
+## 検出結果レポートを確認する
+https://t-fujisaka-d1g.github.io/demo-visual-regression-testing/
 ## ローカルで実行する手順
 ### 1. 依存関係をインストール
 ```shell
