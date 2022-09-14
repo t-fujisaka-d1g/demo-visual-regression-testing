@@ -1,0 +1,1 @@
+{"failedItems":["ドル円.png"],"newItems":["日本標準時.png"],"deletedItems":["00001.png"],"passedItems":[],"expectedItems":["00001.png","ドル円.png"],"actualItems":["ドル円.png","日本標準時.png"],"diffItems":["ドル円.png"],"actualDir":"./after","expectedDir":"./before","diffDir":"./diff"}
